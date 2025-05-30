@@ -1,35 +1,3 @@
-# import pandas as pd
-# from textblob import TextBlob
-# import matplotlib.pyplot as plt
-# from collections import Counter
-
-# # Load dataset
-# data = pd.read_csv('sample_tweets.csv')
-
-# # Function to analyze sentiment polarity
-# def analyze_sentiment(tweet):
-#     analysis = TextBlob(tweet)
-#     polarity = analysis.sentiment.polarity
-#     if polarity > 0:
-#         return 'Positive'
-#     elif polarity == 0:
-#         return 'Neutral'
-#     else:
-#         return 'Negative'
-
-# # Apply sentiment analysis
-# data['sentiment'] = data['tweet'].apply(analyze_sentiment)
-
-# # Count sentiments
-# counts = Counter(data['sentiment'])
-
-# # Plot bar chart
-# plt.bar(counts.keys(), counts.values(), color=['green', 'grey', 'red'])
-# plt.title('Sentiment Distribution')
-# plt.xlabel('Sentiment')
-# plt.ylabel('Number of Tweets')
-# plt.show()
-
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
@@ -99,9 +67,8 @@ if uploaded_file:
             colors=colors[:len(lang_counts)],
             startangle=140
         )
-        ax2.axis('equal')  # Equal aspect ratio
+        ax2.axis('equal')  
 
-        # Add legend outside
         ax2.legend(
             wedges,
             [f"{lang}: {count} ({count/sum(lang_counts.values)*100:.1f}%)" for lang, count in lang_counts.items()],
