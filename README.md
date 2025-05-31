@@ -93,6 +93,7 @@ This project is open-source and available under the MIT License.
 Created by Hemangi Kariya
 
 GitHub: www.github.com/hemangikariya
+
 LinkedIn: www.linkedin.com/in/hemangikariya
 
 
