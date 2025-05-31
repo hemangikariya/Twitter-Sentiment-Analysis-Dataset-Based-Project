@@ -86,17 +86,11 @@ __pycache__/
 ### 📝 License
 This project is open-source and available under the MIT License.
 
-### 🙋‍♀️ Author
+🙋‍♂️ Author
 Created by Hemangi Kariya
 
 GitHub: www.github.com/hemangikariya
 
 LinkedIn: www.linkedin.com/in/hemangikariya
-
-yaml
-Copy
-Edit
-
----
 
 
