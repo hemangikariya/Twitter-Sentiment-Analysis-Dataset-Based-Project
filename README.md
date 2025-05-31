@@ -1,6 +1,6 @@
 # Twitter-Sentiment-Analysis-Dataset-Based-Project
 
-# 📊 Tweet Sentiment & Language Analyzer
+# 📊 Twitter-Sentiment-Analysis-Dataset-Based-Project
 
 A simple yet powerful **Streamlit-based web app** that performs **sentiment analysis** and **language detection** on tweets from a CSV file.
 
@@ -33,8 +33,10 @@ A simple yet powerful **Streamlit-based web app** that performs **sentiment anal
 ```bash
 git clone https://github.com/your-username/tweet-sentiment-analyzer.git
 cd tweet-sentiment-analyzer
+```
+### 🔹 Step 2: Create & Activate Virtual Environment (optional but recommended)
 
-🔹 Step 2: Create & Activate Virtual Environment (optional but recommended)
+```bash
 # For Windows
 python -m venv venv
 venv\Scripts\activate
@@ -42,4 +44,59 @@ venv\Scripts\activate
 # For Linux/Mac
 python3 -m venv venv
 source venv/bin/activate
+```
+
+### 🔹 Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### ▶️ Run the App
+```bash
+streamlit run sentiment_dashboard.py
+```
+
+### 📄 Sample Input Format
+Your CSV file should have at least one column named tweet:
+```bash
+tweet
+"I love this product!"
+"This is terrible."
+"I'm feeling okay."
+```
+
+### 📦 Dependencies
+streamlit
+pandas
+textblob
+matplotlib
+wordcloud
+langdetect
+
+### ❌ .gitignore (Recommended)
+```bash
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+```
+
+### 📝 License
+This project is open-source and available under the MIT License.
+
+### 🙋‍♀️ Author
+Created by Hemangi Kariya
+
+GitHub: www.github.com/hemangikariya
+
+LinkedIn: www.linkedin.com/in/hemangikariya
+
+yaml
+Copy
+Edit
+
+---
+
 
