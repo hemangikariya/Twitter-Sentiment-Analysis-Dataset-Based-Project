@@ -33,7 +33,6 @@ A simple yet powerful **Streamlit-based web app** that performs **sentiment anal
 ```bash
 git clone https://github.com/your-username/tweet-sentiment-analyzer.git
 cd tweet-sentiment-analyzer
-```bash
 
 🔹 Step 2: Create & Activate Virtual Environment (optional but recommended)
 # For Windows
