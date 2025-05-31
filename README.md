@@ -27,6 +27,14 @@ A simple yet powerful **Streamlit-based web app** that performs **sentiment anal
 └── README.md                  # Project description
 ```
 
+## 📥 Download Sample CSV File
+
+You can download the sample tweet data from the link below:
+
+➡️ [Download sample_tweets.csv](https://raw.githubusercontent.com/<your-username>/<repo-name>/main/<path>/sample_tweets.csv)
+
+🔗 Try it Live: [Tweet Sentiment Analyzer](https://huggingface.co/spaces/hemangikariya/twitter-sentiment-analysis-dataset-based-project)
+
 ---
 
 ## 🛠️ Installation
