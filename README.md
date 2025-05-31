@@ -19,10 +19,13 @@ A simple yet powerful **Streamlit-based web app** that performs **sentiment anal
 ---
 
 ## 🗂️ Project Structure
-├── sentiment_dashboard.py # Main Streamlit app
-├── requirements.txt # Dependencies
-├── sample_tweets.csv # Sample input file
-└── README.md # Project description
+
+```
+├── sentiment_dashboard.py     # Main Streamlit app
+├── requirements.txt           # Dependencies
+├── sample_tweets.csv          # Sample input file
+└── README.md                  # Project description
+```
 
 ---
 
@@ -86,11 +89,10 @@ __pycache__/
 ### 📝 License
 This project is open-source and available under the MIT License.
 
-🙋‍♂️ Author
+### 🙋‍♀️ Author
 Created by Hemangi Kariya
 
 GitHub: www.github.com/hemangikariya
-
 LinkedIn: www.linkedin.com/in/hemangikariya
 
 
