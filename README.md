@@ -75,10 +75,15 @@ tweet
 
 ### 📦 Dependencies
 streamlit
+
 pandas
+
 textblob
+
 matplotlib
+
 wordcloud
+
 langdetect
 
 ### ❌ .gitignore (Recommended)
