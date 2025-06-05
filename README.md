@@ -74,17 +74,13 @@ tweet
 ```
 
 ### 📦 Dependencies
-streamlit
-
-pandas
-
-textblob
-
-matplotlib
-
-wordcloud
-
-langdetect
+List of dependencies:
+- streamlit
+- pandas
+- textblob
+- matplotlib
+- wordcloud
+- langdetect
 
 ### ❌ .gitignore (Recommended)
 ```bash
