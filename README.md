@@ -1,5 +1,3 @@
-# Twitter-Sentiment-Analysis-Dataset-Based-Project
-
 # 📊 Twitter-Sentiment-Analysis-Dataset-Based-Project
 
 A simple yet powerful **Streamlit-based web app** that performs **sentiment analysis** and **language detection** on tweets from a CSV file.
